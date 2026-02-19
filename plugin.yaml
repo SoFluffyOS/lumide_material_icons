@@ -1,0 +1,18 @@
+id: lumide_material_icons
+name: Material Icons
+description: >
+  Material Design icon theme for the Lumide IDE. Provides file and folder
+  icons for common file types sourced from the MDI icon set.
+entry_point: 'bin/main.dart'
+publisher: lumide
+
+activation_events:
+  - onStartup
+
+contributes:
+  iconThemes:
+    - id: material_icons_default
+      label: Material Icons
+      path: icons/icon-theme.json
+
+permissions: []
