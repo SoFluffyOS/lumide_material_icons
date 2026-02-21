@@ -6,9 +6,6 @@ description: >
 entry_point: 'bin/main.dart'
 publisher: lumide
 
-activation_events:
-  - onStartup
-
 contributes:
   iconThemes:
     - id: material_icons_default
