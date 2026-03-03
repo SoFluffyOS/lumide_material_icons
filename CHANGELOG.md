@@ -1,3 +1,13 @@
+## 1.0.1 (2026-03-03)
+
+### ♻️ Refactor
+
+*   Remove redundant activation event & executables declaration.
+
+### ⬆️ Upgrade lumide_api
+
+*   **lumide_api**: Upgraded from 0.7.0 to 0.9.0.
+
 ## 1.0.0 (2026-02-20)
 
 ### 🚀 Initial Release
