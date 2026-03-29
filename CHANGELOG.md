@@ -1,3 +1,11 @@
+## 1.0.2 (2026-03-29)
+
+### ⬆️ Upgrade lumide_api
+* Bump `lumide_api` dependency to `1.1.0`.
+
+### 🏷️ Metadata
+* Add `lumide-plugin` topics metadata for better Marketplace discovery.
+
 ## 1.0.1 (2026-03-03)
 
 ### ♻️ Refactor

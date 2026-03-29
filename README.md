@@ -1,30 +1,42 @@
-# Lumide Material Icons
+# lumide_material_icons
 
-A Material Design Icon theme for the Lumide IDE.
+[![pub package](https://img.shields.io/pub/v/lumide_material_icons.svg)](https://pub.dev/packages/lumide_material_icons) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Powered by SoFluffy](https://img.shields.io/badge/Powered%20by-SoFluffy-orange)](https://sofluffy.io)
 
-This plugin provides a comprehensive set of icons from [Material Design Icons (MDI)](https://pictogrammers.com/library/mdi/), meticulously mapped to file types, file names, and folder structures used in modern development.
+The official Material Design Icon theme for [Lumide IDE](https://lumide.dev).
+
+`lumide_material_icons` provides a comprehensive, high-quality set of icons from the [Material Design Icons (MDI)](https://pictogrammers.com/library/mdi/) library, specifically mapped to provide a vibrant and intuitive file exploration experience in Lumide.
 
 ## Features
 
--   **Material Aesthetics**: Over 100 high-quality SVG icons from the Pictogrammers MDI library.
--   **Vibrant Brand Coloring**: Each file type is dynamically tinted with its official brand color (e.g., Dart blue, Python yellow, Rust orange).
--   **Extensive Mappings**:
-    -   **File Extensions**: 100+ extensions covered (from `.dart` and `.js` to `.nix` and `.prisma`).
-    -   **Named Files**: Special icons for `pubspec.yaml`, `Dockerfile`, `LICENSE`, `README.md`, and more.
-    -   **Folders**: Unique icons for `lib`, `test`, `assets`, `scripts`, `.git`, etc., including expanded states.
--   **Optimized Performance**: Small package footprint with minified SVGs, ensuring fast loading and minimal memory usage.
+### ✨ Material Aesthetics
+- **100+ High-Quality Icons**: Sourced from Pictogrammers MDI for a clean, modern look.
+- **Vibrant Brand Tinting**: Automatically applies official brand colors to file icons (e.g., Dart blue, Python yellow, Rust orange).
+- **Dynamic States**: Supports unique icons for expanded and collapsed folders.
+
+### 🛠 Extensive Mappings
+- **Language Support**: Covers 100+ file extensions out of the box.
+- **Specialized Files**: Unique icons for `pubspec.yaml`, `Dockerfile`, `LICENSE`, `README.md`, and more.
+- **Folder Identity**: Semantic icons for common directories like `lib`, `test`, `assets`, `scripts`, and system folders like `.git`.
+
+### ⚡ Performance Optimized
+- **Minified SVGs**: Extremely small package footprint for instant loading.
+- **Resource Efficient**: Optimized mapping logic for fast UI rendering.
 
 ## Installation
 
-This is a Lumide plugin. In most cases, you can enable it directly from the Lumide Plugin Marketplace.
+This plugin can be installed via the Lumide Plugin Marketplace within the IDE.
 
-If you are developing or sideloading the plugin:
-
-1.  Clone the repository or download the package.
-2.  Go to Plugins → Load Local Plugin
-3.  Select this plugin folder.
+For manual installation or development:
+1. Clone the repository.
+2. Load as a local plugin via **Plugins → Load Local Plugin** in Lumide.
 
 ## License
 
--   The package source code is licensed under the **MIT License**.
--   The SVG icons are sourced from [Material Design Icons](https://github.com/Templarian/MaterialDesign) by Pictogrammers and are licensed under the **Apache License 2.0**. See `icons/LICENSE` for details.
+- The package source code is licensed under the **MIT License**.
+- The SVG icons are sourced from [Material Design Icons](https://github.com/Templarian/MaterialDesign) and are licensed under the **Apache License 2.0**.
+
+---
+
+Built with ❤️ by [SoFluffy](https://sofluffy.io).
+
+## Happy Coding 🦊
